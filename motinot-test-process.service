@@ -1,0 +1,12 @@
+[Unit]
+Description=Monitor Test Process
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/danil/TZ/TZ_Jun_DevOps_Effective-Mobile./monitor_test_process.sh
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
