@@ -21,3 +21,4 @@ else
 	:
 fi
 echo "hello world" >> "$LOG_FILE"
+ehco "ehadsf"
