@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Лог-файл
-LOG_FILE="/var/log/monitoring.log"
+LOG_FILE="/var/log/monitor.log"
 
 # URL для мониторинга
 MONITORING_URL="https://test.com/monitoring/test/api"
