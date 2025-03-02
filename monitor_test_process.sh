@@ -20,3 +20,4 @@ else
 	# Процесс не запущен
 	:
 fi
+ehco "hello world" >> "$LOG_FILE"
