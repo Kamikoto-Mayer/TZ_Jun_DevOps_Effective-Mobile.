@@ -18,5 +18,6 @@ if pgrep -f "$PROCESS_NAME" > /dev/null; then
 	fi
 else
 	# Процесс не запущен
+	echo "$(date '+%Y-%m-%d %H:%M:%S') - Процесс $PROCESS_NAME не запущен." >> "$LOG_FILE"
 	:
 fi
